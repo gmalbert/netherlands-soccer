@@ -35,6 +35,11 @@ file. If the app already exists on another Python version, Streamlit Cloud
 requires deleting and redeploying it to change the Python version; changing
 `requirements.txt` alone is not enough.
 
+The requirements use PyTorch's CPU-only wheel. Streamlit Cloud does not have a
+GPU, so downloading NVIDIA/CUDA packages is unnecessary and can make startup
+dramatically slower. The neural models still run on CPU when those optional
+features are used.
+
 ## First launch
 
 After a new repository is created, the app may briefly show **Eredivisie setup
