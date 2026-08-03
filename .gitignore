@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+*.log
+.cache.sqlite
+*.sqlite
+*.sqlite3
+*.db
+.playwright-cli/
+
+# Local screenshots and test/build output
+setup-screen.png
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local Streamlit secrets and OS metadata
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
