@@ -19,6 +19,22 @@ nighttime theme, and use the sidebar to move between:
 The app is refreshed from the repository's generated prediction cache. It does
 not train models every time someone opens the page.
 
+## Streamlit Cloud setup
+
+Deploy this app with **Python 3.12**.
+
+The shared prediction stack includes scientific packages with compiled
+dependencies. Python 3.14 can cause Streamlit Cloud's resolver to select an
+old `llvmlite` build that cannot run on Python 3.14, resulting in an error
+before the app starts. Python 3.12 is the supported deployment target for this
+release and matches the CI and artifact pipeline environment.
+
+When creating the Streamlit app, open **Advanced settings**, select **Python
+3.12**, and deploy from the `main` branch with `predictions.py` as the app
+file. If the app already exists on another Python version, Streamlit Cloud
+requires deleting and redeploying it to change the Python version; changing
+`requirements.txt` alone is not enough.
+
 ## First launch
 
 After a new repository is created, the app may briefly show **Eredivisie setup
@@ -54,7 +70,8 @@ release is being prepared.
 
 ## Local development
 
-Use Python 3.12 or newer. From the repository root:
+Use Python 3.12 locally so development matches Streamlit Cloud and GitHub
+Actions. From the repository root:
 
 ```bash
 python -m venv venv
