@@ -1,3 +1,6 @@
 pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@v1.3.11
+# Keep CI on the same lightweight CPU-only PyTorch build as Streamlit Cloud.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
 pandas>=2.1
 pytest>=8
