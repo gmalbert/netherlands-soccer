@@ -3,7 +3,7 @@
   "core_version": "1.3.11",
   "feature_policy_version": 2,
   "league": "eredivisie",
-  "created_at": "2026-08-03T21:38:47.586493+00:00",
+  "created_at": "2026-08-04T00:59:04.057738+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
@@ -12,23 +12,23 @@
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
-      "bytes": 425700,
-      "sha256": "4a4986b89c345270a996e683ee2ca46df6b882766e9648f89621e945e58c9424"
+      "bytes": 424565,
+      "sha256": "5c45daddfbb6a65ad073b3c0f82e71cf684e82bdb42f408bdcdef66444ec72c5"
     },
     "ensemble": {
       "path": "models/ensemble_model.pkl",
-      "bytes": 923908,
-      "sha256": "4baac36342e89d189f0675fcd3ae256ad99b205bfe7a9ad138c090ac5b5d04d0"
+      "bytes": 920425,
+      "sha256": "231ff2ca691fc482ee312754ecbd10fcd8d8e1acfb3f17d61b0b33951d11abea"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
-      "bytes": 1062139,
-      "sha256": "41c08aafaacc0dc0c5dd519d5bf1cfc49fef9b6ddcee8c7bae8d89efe18d43eb"
+      "bytes": 1067328,
+      "sha256": "dc8fe429fd97d9574109a4bcaedbbcc4cb1ea0e1d30b3cb4f691c5a6eccefc4e"
     },
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 512,
-      "sha256": "d1f1a20f2ddb4209fa4b6ebcdfb55f2ad65475827d38ca62a7c1d5596a03e5d6"
+      "sha256": "6d1e26174055edc0ad6e3fe88fd6a9f5032f62b0fac7f503bc92be396337c495"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
@@ -37,8 +37,8 @@
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 14179,
-      "sha256": "6e0b46b144b86c2691026a867f23f69544b55c0549f3217664981184a7b9593e"
+      "bytes": 14273,
+      "sha256": "5ccba0caf4d2e9fb67ec8814570227c99338a5ffa8cd47caaba9d566483acf21"
     }
   }
 }
