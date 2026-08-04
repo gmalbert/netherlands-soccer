@@ -5,7 +5,7 @@ from pitch_oracle_core import __version__
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "v1.3.11"
+CORE_REF = "v1.3.13"
 
 
 def test_consumer_selects_a_registered_non_epl_league():
@@ -17,9 +17,8 @@ def test_consumer_selects_a_registered_non_epl_league():
 
 def test_core_pin_is_synchronized_everywhere():
     assert __version__ == CORE_REF.removeprefix("v")
-    base_pin = f"pitch-oracle-core @ git+https://github.com/gmalbert/pitch-oracle-core.git@{CORE_REF}"
     ci_pin = f"pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@{CORE_REF}"
-    assert base_pin in (ROOT / "requirements.txt").read_text()
+    assert ci_pin in (ROOT / "requirements.txt").read_text()
     assert ci_pin in (ROOT / "requirements-ci.txt").read_text()
     workflow = (ROOT / ".github" / "workflows" / "artifact-pipeline.yml").read_text()
     assert f"precompute-consumer.yml@{CORE_REF}" in workflow
