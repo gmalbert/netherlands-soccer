@@ -3,12 +3,12 @@
   "core_version": "1.3.11",
   "feature_policy_version": 2,
   "league": "eredivisie",
-  "created_at": "2026-08-05T08:11:12.279333+00:00",
+  "created_at": "2026-08-06T08:10:04.103078+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 1982674,
-      "sha256": "a22f1bd0e4b5ef99dac8b1ccba37e917396d4cd8f36ed21f59def14a671a6e73"
+      "sha256": "51d51e24a3ffab3568a0f1becf77b31f43fb9440dab9b85482b2cae59b1807d3"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -28,7 +28,7 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 512,
-      "sha256": "777bc93baead543f944dfc739864789258918815021b7b0f53d059ab98bafe44"
+      "sha256": "2ec1ae2b837711b3f1149acb2f4ffdd31982f6dd1dcb7b09367f3c9f60963df8"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
@@ -38,7 +38,7 @@
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
       "bytes": 14179,
-      "sha256": "7f8b89d800fa662ff9a5f19a7202c38041134653043a227f8fdf34bca13016d9"
+      "sha256": "bcfe7d30e600bb721c561c0670b2822d18962325a4ce2391beffade5b9cd544f"
     }
   }
 }
