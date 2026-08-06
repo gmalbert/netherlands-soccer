@@ -101,6 +101,10 @@ release is being prepared.
 Use Python 3.12 locally so development matches Streamlit Cloud and GitHub
 Actions. From the repository root:
 
+The local bootstrap loads provider credentials from the ignored `.env` file.
+Use `.env.example` as the variable-name contract. This repository's `.env` was
+copied from the local `pitch-oracle-core` checkout and must never be committed.
+
 ```bash
 python -m venv venv
 venv\\Scripts\\python -m pip install -r requirements.txt
@@ -116,6 +120,10 @@ venv\\Scripts\\python scripts/bootstrap_local.py
 That command downloads/prepares data, trains the models, builds the cache, and
 runs the same consumer validation used before release. Data-provider access and
 local environment setup may be required.
+
+For GitHub Actions, configure the required names from `.env.example` as
+repository or organization secrets. The workflow passes them to the shared core
+through `secrets: inherit`; local `.env` files are never uploaded to Actions.
 
 ## Releasing an update
 

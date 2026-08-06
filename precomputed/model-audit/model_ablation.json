@@ -1,0 +1,64 @@
+{
+  "source": "data_files\\combined_historical_data_with_calculations_new.csv",
+  "data_quality": {
+    "rows": 1224,
+    "invalid_dates": 0,
+    "completed_future_rows": 0,
+    "earliest_date": "2022-08-05T00:00:00",
+    "latest_date": "2026-05-17T00:00:00",
+    "duplicate_fixture_rows": 0,
+    "duplicate_no_odds_feature_rows": 18
+  },
+  "status": "complete",
+  "release_gate": {
+    "passed": true,
+    "criteria": "no_odds beats rolling class-prior baseline on log loss and Brier score"
+  },
+  "ablation": [
+    {
+      "candidate": "class_prior_baseline",
+      "feature_count": 0,
+      "folds": 3,
+      "test_rows": 611,
+      "metrics": {
+        "accuracy": 0.44844517184942717,
+        "log_loss": 1.0699579517711453,
+        "brier_score": 0.6467423740853219,
+        "calibration_error": 0.004630162395463211,
+        "draw_recall": 0.0,
+        "mean_confidence": 0.44381500945396396,
+        "decisive_lean_rate": 0.0
+      }
+    },
+    {
+      "candidate": "odds_heavy",
+      "feature_count": 192,
+      "folds": 3,
+      "test_rows": 611,
+      "metrics": {
+        "accuracy": 0.46153846153846156,
+        "log_loss": 1.36347602607167,
+        "brier_score": 0.6987283702933174,
+        "calibration_error": 0.15169778460411878,
+        "draw_recall": 0.2484076433121019,
+        "mean_confidence": 0.6108608167399228,
+        "decisive_lean_rate": 0.5711947626841244
+      }
+    },
+    {
+      "candidate": "no_odds",
+      "feature_count": 41,
+      "folds": 3,
+      "test_rows": 611,
+      "metrics": {
+        "accuracy": 0.513911620294599,
+        "log_loss": 1.030568384365017,
+        "brier_score": 0.6138522551191247,
+        "calibration_error": 0.0681634515423021,
+        "draw_recall": 0.07643312101910828,
+        "mean_confidence": 0.5657623132969144,
+        "decisive_lean_rate": 0.4828150572831424
+      }
+    }
+  ]
+}
