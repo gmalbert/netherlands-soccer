@@ -1,10 +1,33 @@
 # Eredivisie Soccer
 
-Predictions, fixtures, standings, and team deep dives for the Dutch Eredivisie.
+![Pitch Oracle Eredivisie](data_files/logo.png)
 
-This is the Netherlands edition of Pitch Oracle. It has the same shared app
-experience as the other league sites, with Eredivisie data, branding, and
-league-specific configuration layered on top.
+## Follow Dutch football with more context
+
+The Eredivisie is the Netherlands’ top-flight football competition: an open,
+technical league known for strong club identities, attacking football, and a
+steady stream of emerging talent. Pitch Oracle brings that competition into a
+single place for supporters who want more than a scoreline.
+
+Explore the race for the title, European places, and survival through a clear
+view of the league’s fixtures, form, standings, and team-level storylines.
+
+## What you can explore
+
+- **Overview:** See the latest league picture at a glance, including upcoming
+  fixtures and historical context.
+- **Predictions:** Review match forecasts, confidence, risk, and the available
+  recommendation for each upcoming game.
+- **Standings:** Follow the table and the changing shape of the season.
+- **Team Deep Dive:** Compare clubs through recent form, performance trends,
+  strengths, and weaknesses.
+- **Statistics and Model Lab:** Dig into league patterns and understand the
+  evidence behind the forecasts.
+
+The Netherlands edition of Pitch Oracle combines current Eredivisie fixtures
+with historical results, team form, match conditions, and other football
+signals. It is designed to help fans ask better questions about the league,
+not to replace their judgment.
 
 ## Open the app
 
@@ -78,6 +101,10 @@ release is being prepared.
 Use Python 3.12 locally so development matches Streamlit Cloud and GitHub
 Actions. From the repository root:
 
+The local bootstrap loads provider credentials from the ignored `.env` file.
+Use `.env.example` as the variable-name contract. This repository's `.env` was
+copied from the local `pitch-oracle-core` checkout and must never be committed.
+
 ```bash
 python -m venv venv
 venv\\Scripts\\python -m pip install -r requirements.txt
@@ -93,6 +120,10 @@ venv\\Scripts\\python scripts/bootstrap_local.py
 That command downloads/prepares data, trains the models, builds the cache, and
 runs the same consumer validation used before release. Data-provider access and
 local environment setup may be required.
+
+For GitHub Actions, configure the required names from `.env.example` as
+repository or organization secrets. The workflow passes them to the shared core
+through `secrets: inherit`; local `.env` files are never uploaded to Actions.
 
 ## Releasing an update
 

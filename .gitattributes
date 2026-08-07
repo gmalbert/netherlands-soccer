@@ -1,0 +1,5 @@
+# Cache artifact hashes are generated on Linux and validated on every runtime.
+# Keep generated CSVs and JSON artifacts byte-stable when the repository is
+# checked out on Windows, so local regeneration matches Linux CI hashes.
+*.csv text eol=lf
+*.json text eol=lf
