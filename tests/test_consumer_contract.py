@@ -2,6 +2,7 @@ from pathlib import Path
 
 from config import LEAGUE_CONFIG
 from pitch_oracle_core import __version__
+from scripts.precompute_predictions import _weather_enabled
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,3 +35,11 @@ def test_local_secret_and_model_audit_contracts_are_present():
     assert (ROOT / ".env.example").is_file()
     assert 'load_dotenv(ROOT / ".env"' in bootstrap
     assert '"-m", "pitch_oracle_core.audit_cli"' in bootstrap
+
+
+def test_prediction_weather_can_be_disabled(monkeypatch):
+    monkeypatch.setenv("PITCH_ORACLE_DISABLE_WEATHER", "1")
+    assert not _weather_enabled()
+
+    monkeypatch.delenv("PITCH_ORACLE_DISABLE_WEATHER")
+    assert _weather_enabled()

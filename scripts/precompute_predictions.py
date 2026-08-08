@@ -1,6 +1,7 @@
 """Build the strict upcoming-prediction artifact from the shared feature contract."""
 
 from pathlib import Path
+import os
 import pickle
 import sys
 
@@ -20,13 +21,22 @@ from pitch_oracle_core import (
 from config import LEAGUE_CONFIG  # noqa: E402
 
 
+def _weather_enabled() -> bool:
+    disabled = os.getenv("PITCH_ORACLE_DISABLE_WEATHER", "").strip().lower()
+    return disabled not in {"1", "true", "yes", "on"}
+
+
 def generate() -> Path:
     historical = pd.read_csv(
         ROOT / "data_files" / "combined_historical_data_with_calculations_new.csv",
         sep="\t",
     )
     upcoming = pd.read_csv(ROOT / "data_files" / "upcoming_fixtures.csv")
-    if LEAGUE_CONFIG.sources.weather and LEAGUE_CONFIG.stadium_coordinates:
+    if (
+        _weather_enabled()
+        and LEAGUE_CONFIG.sources.weather
+        and LEAGUE_CONFIG.stadium_coordinates
+    ):
         upcoming = add_weather_features(
             upcoming,
             cache_file=f"weather_cache_{LEAGUE_CONFIG.key}.csv",
