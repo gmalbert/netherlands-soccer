@@ -3,12 +3,12 @@
   "core_version": "1.3.16",
   "feature_policy_version": 3,
   "league": "eredivisie",
-  "created_at": "2026-08-08T01:58:55.034966+00:00",
+  "created_at": "2026-08-08T07:39:04.361534+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2552626,
-      "sha256": "525651a0f759e64224e14599d1e6598db72138753e84614983563974aaa40238"
+      "sha256": "75ca4a919f1ae4a130fc7d5e1d9f495665d18d6a1bae93304639b3fb566c6dda"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -18,7 +18,7 @@
     "ensemble": {
       "path": "models/ensemble_model.pkl",
       "bytes": 3207,
-      "sha256": "46f2ca440c3b2b23092fbe9d0ac3c82ef36b592ad53b260389a3e9d3c9c624a4"
+      "sha256": "7c0eee07b5e07d0a75548f0a6b7a11cc33da7a7eab5bc9093239d2dc249b8517"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
@@ -28,17 +28,17 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "3d2a7dbe1bbf0e08ad68e12f78161233de0b1f2d22ff74df6fa77ec7254b4314"
+      "sha256": "b141ac46f26cc5b070cb40349b9f8a25312802f30e52247809319c0b938f0847"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1653,
-      "sha256": "564ac4b6b559300628242f2c367198a7b03e70126cfed86aa4f3b3fda6f1beca"
+      "sha256": "fac7e8e8e8e397391dd4971dee40583b0b54c727cf16fef707beee1b65512f65"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
       "bytes": 1858,
-      "sha256": "4bba486c919bd1a984222586b7d3a004c898162fe76ec6038ab4ccbc00d8b6f6"
+      "sha256": "021d4666fe30e9c5c11dc52174588170bc9cc1298cdc83ac683fc2b352af94a5"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
@@ -47,8 +47,8 @@
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 22458,
-      "sha256": "641d62b3998947c338d5c39b90414d7a10597854d804b741b6c8bcc98dddd66e"
+      "bytes": 22464,
+      "sha256": "93b6620daceca3562e1ca0c162d4a5f86ee74f261cb0614618836d60705889bc"
     }
   }
 }
