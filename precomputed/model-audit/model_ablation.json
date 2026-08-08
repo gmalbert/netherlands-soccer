@@ -1,5 +1,5 @@
 {
-  "source": "data_files\\combined_historical_data_with_calculations_new.csv",
+  "source": "data_files/combined_historical_data_with_calculations_new.csv",
   "data_quality": {
     "rows": 1224,
     "invalid_dates": 0,
@@ -37,11 +37,11 @@
       "test_rows": 611,
       "metrics": {
         "accuracy": 0.46153846153846156,
-        "log_loss": 1.36347602607167,
-        "brier_score": 0.6987283702933174,
-        "calibration_error": 0.15169778460411878,
+        "log_loss": 1.3634760130024566,
+        "brier_score": 0.6987283680532511,
+        "calibration_error": 0.15169778721600416,
         "draw_recall": 0.2484076433121019,
-        "mean_confidence": 0.6108608167399228,
+        "mean_confidence": 0.6108608195480317,
         "decisive_lean_rate": 0.5711947626841244
       }
     },
@@ -52,11 +52,11 @@
       "test_rows": 611,
       "metrics": {
         "accuracy": 0.513911620294599,
-        "log_loss": 1.030568384365017,
-        "brier_score": 0.6138522551191247,
-        "calibration_error": 0.0681634515423021,
+        "log_loss": 1.0305683843653466,
+        "brier_score": 0.6138522551194532,
+        "calibration_error": 0.0681634515420996,
         "draw_recall": 0.07643312101910828,
-        "mean_confidence": 0.5657623132969144,
+        "mean_confidence": 0.5657623132966996,
         "decisive_lean_rate": 0.4828150572831424
       }
     }
