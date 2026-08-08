@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "sport": "eredivisie",
+    "generated_at": null,
+    "model_version": "core-1.3.17",
+    "season": null,
+    "notes": "Placeholder; the artifact pipeline replaces this with today's best bets"
+  },
+  "bets": []
+}
