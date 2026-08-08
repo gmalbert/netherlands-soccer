@@ -1,6 +1,6 @@
 # Eredivisie Soccer
 
-![Pitch Oracle Eredivisie](data_files/logo.png)
+<img src="data_files/logo.png" alt="Pitch Oracle Eredivisie" width="200">
 
 ## Follow Dutch football with more context
 
