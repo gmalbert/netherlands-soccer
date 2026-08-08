@@ -6,7 +6,7 @@ from scripts.precompute_predictions import _weather_enabled
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "v1.3.16"
+CORE_REF = "v1.3.17"
 
 
 def test_consumer_selects_a_registered_non_epl_league():
