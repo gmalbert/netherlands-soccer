@@ -2,6 +2,20 @@
   "feature_policy_version": 3,
   "feature_set": "no_odds",
   "feature_names": [
+    "HxG",
+    "AxG",
+    "PPH",
+    "PPD",
+    "PPA",
+    "SKBH",
+    "SKBD",
+    "SKBA",
+    "PPCH",
+    "PPCD",
+    "PPCA",
+    "SKBCH",
+    "SKBCD",
+    "SKBCA",
     "HomeTeamPointsLast5",
     "AwayTeamPointsLast5",
     "HomeH2HWinLast5",
@@ -44,13 +58,13 @@
     "HomeWinStreakHome_L5",
     "AwayWinStreakAway_L5"
   ],
-  "feature_count": 41,
+  "feature_count": 55,
   "split_strategy": "chronological_train_calibration_test",
-  "train_rows": 729,
-  "calibration_rows": 248,
+  "train_rows": 739,
+  "calibration_rows": 247,
   "test_rows": 247,
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-08-09T07:42:18.496122+00:00"
+  "generated_at": "2026-08-10T08:01:45.660019+00:00"
 }
