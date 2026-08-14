@@ -241,12 +241,12 @@ AwayxG_Avg_L5,no_odds,float64,0.0,461
 AwayShootingEff_Avg_L5,no_odds,float64,0.0,1038
 AwayMomentum_L3,no_odds,float64,0.0,15
 AwayGoalDiff_Avg_L5,no_odds,float64,0.0,59
-Home_Poisson_0_Goals_Avg_L5,no_odds,float64,0.0,1200
-Home_Poisson_1_Goal_Avg_L5,no_odds,float64,0.0,1198
-Home_Poisson_2_3_Goals_Avg_L5,no_odds,float64,0.0,1200
+Home_Poisson_0_Goals_Avg_L5,no_odds,float64,0.0,1198
+Home_Poisson_1_Goal_Avg_L5,no_odds,float64,0.0,1199
+Home_Poisson_2_3_Goals_Avg_L5,no_odds,float64,0.0,1199
 Home_Poisson_4Plus_Goals_Avg_L5,no_odds,float64,0.0,1200
 Home_Poisson_xPTS_Avg_L5,no_odds,float64,0.0,1210
-Away_Poisson_0_Goals_Avg_L5,no_odds,float64,0.0,1197
+Away_Poisson_0_Goals_Avg_L5,no_odds,float64,0.0,1196
 Away_Poisson_1_Goal_Avg_L5,no_odds,float64,0.0,1196
 Away_Poisson_2_3_Goals_Avg_L5,no_odds,float64,0.0,1198
 Away_Poisson_4Plus_Goals_Avg_L5,no_odds,float64,0.0,1197
