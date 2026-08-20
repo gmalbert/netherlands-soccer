@@ -32,7 +32,7 @@ def main() -> None:
             "data_files/combined_historical_data_with_calculations_new.csv",
             "--output-dir", "precomputed/model-audit",
         ),
-        (sys.executable, "-m", "train_models"),
+        (sys.executable, "scripts/train_models.py"),
         (sys.executable, "-m", "precompute_database"),
         (sys.executable, "scripts/precompute_predictions.py"),
         (sys.executable, "-m", "build_cache_manifest"),
