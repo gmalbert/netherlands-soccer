@@ -1,6 +1,6 @@
 {
   "feature_policy_version": 3,
-  "feature_set": "no_odds",
+  "feature_set": "poisson",
   "feature_names": [
     "HxG",
     "AxG",
@@ -61,10 +61,10 @@
   "feature_count": 55,
   "split_strategy": "chronological_train_calibration_test",
   "train_rows": 739,
-  "calibration_rows": 247,
-  "test_rows": 247,
+  "calibration_rows": 251,
+  "test_rows": 252,
   "calibration_method": "temperature_scaling",
-  "production_model": "regularized_multinomial_logistic_regression",
-  "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-08-17T07:41:25.752616+00:00"
+  "production_model": "walk_forward_poisson",
+  "release_gate": "best of no_odds and poisson beats class-prior baseline on the chronological split",
+  "generated_at": "2026-08-20T21:11:18.181515+00:00"
 }

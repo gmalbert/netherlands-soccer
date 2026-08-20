@@ -14,14 +14,14 @@ concurrency:
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@v1.3.17
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@v1.3.29
     with:
-      core_ref: v1.3.17
+      core_ref: v1.3.29
       league_key: eredivisie
       data_command: >-
         python -m combine_raw_data &&
         python -m fetch_upcoming_fixtures &&
         PITCH_ORACLE_DISABLE_WEATHER=1 python -m prepare_model_data
-      training_command: python -m train_models
+      training_command: python scripts/train_models.py
       prediction_command: python scripts/precompute_predictions.py
     secrets: inherit
