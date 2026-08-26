@@ -38,11 +38,11 @@
       "test_rows": 622,
       "metrics": {
         "accuracy": 0.41639871382636656,
-        "log_loss": 2.2034706536558097,
-        "brier_score": 0.793451652187161,
-        "calibration_error": 0.2797174289115317,
+        "log_loss": 2.2034706945461213,
+        "brier_score": 0.7934516538661271,
+        "calibration_error": 0.27971743071245714,
         "draw_recall": 0.2356687898089172,
-        "mean_confidence": 0.6961161427378982,
+        "mean_confidence": 0.6961161445388238,
         "decisive_lean_rate": 0.6672025723472669
       }
     },
@@ -53,11 +53,11 @@
       "test_rows": 622,
       "metrics": {
         "accuracy": 0.5064308681672026,
-        "log_loss": 1.0405272095760838,
-        "brier_score": 0.6130961169881446,
-        "calibration_error": 0.07615108559002086,
+        "log_loss": 1.0405272095760882,
+        "brier_score": 0.6130961169881467,
+        "calibration_error": 0.07615108559001824,
         "draw_recall": 0.01910828025477707,
-        "mean_confidence": 0.5555497882560662,
+        "mean_confidence": 0.5555497882560634,
         "decisive_lean_rate": 0.4662379421221865
       }
     },
@@ -70,7 +70,7 @@
         "accuracy": 0.5289389067524116,
         "log_loss": 0.9950101211616184,
         "brier_score": 0.5951165104860838,
-        "calibration_error": 0.06539524524913849,
+        "calibration_error": 0.06539524524913846,
         "draw_recall": 0.0,
         "mean_confidence": 0.59433415200155,
         "decisive_lean_rate": 0.5643086816720257
