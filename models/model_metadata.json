@@ -49,5 +49,5 @@
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "best of no_odds and poisson beats class-prior baseline on the chronological split",
-  "generated_at": "2026-08-29T07:29:32.224693+00:00"
+  "generated_at": "2026-08-30T07:28:48.469463+00:00"
 }
