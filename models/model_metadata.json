@@ -43,11 +43,11 @@
   ],
   "feature_count": 38,
   "split_strategy": "chronological_train_calibration_test",
-  "train_rows": 743,
-  "calibration_rows": 252,
+  "train_rows": 751,
+  "calibration_rows": 253,
   "test_rows": 253,
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "best of no_odds and poisson beats class-prior baseline on the chronological split",
-  "generated_at": "2026-08-31T07:40:10.810928+00:00"
+  "generated_at": "2026-09-01T07:34:23.758369+00:00"
 }
