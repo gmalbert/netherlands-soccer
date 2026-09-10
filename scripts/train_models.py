@@ -271,6 +271,51 @@ def train_and_save_models():
     except Exception as e:
         print(f"WARNING: Poisson evaluation failed: {e}")
 
+    # Train and persist the shared Dixon-Coles artifacts required by the
+    # runtime cache contract. Keep this outside the outcome-model selection so
+    # a no-odds release-gate result cannot silently omit the goal model.
+    try:
+        from pitch_oracle_core.goal_models import (
+            fit_dixon_coles, goals_frame_from_historical, save_goal_model,
+        )
+        from pitch_oracle_core.evaluation.baseline import proper_score_summary
+
+        print("\nTraining Dixon-Coles goal model with time-decay weights...")
+        dc_start = time.time()
+        raw_csv = path.join(DATA_DIR, 'combined_historical_data_with_calculations_new.csv')
+        raw_hist = pd.read_csv(raw_csv, sep='\t')
+        goals = goals_frame_from_historical(raw_hist)
+        split_idx = int(len(goals) * 0.8)
+        goals_train = goals.iloc[:split_idx].copy()
+        goals_test = goals.iloc[split_idx:].copy()
+        dc_model = fit_dixon_coles(goals)
+        dc_result = save_goal_model(dc_model, goals, MODELS_DIR)
+        print(f"  Dixon-Coles fitted: {dc_result.n_teams} teams, {dc_result.n_fixtures} fixtures")
+        dc_test_model = fit_dixon_coles(goals_train)
+        test_probs = []
+        test_outcomes = []
+        for _, row in goals_test.iterrows():
+            try:
+                grid = dc_test_model.predict(row["team_home"], row["team_away"], max_goals=10)
+                test_probs.append([grid.home_win, grid.draw, grid.away_win])
+                test_outcomes.append(
+                    0 if row["goals_home"] > row["goals_away"]
+                    else (1 if row["goals_home"] == row["goals_away"] else 2)
+                )
+            except (KeyError, ValueError):
+                continue
+        if test_probs:
+            dc_metrics = proper_score_summary(
+                np.asarray(test_outcomes), np.asarray(test_probs)
+            )
+            dc_metrics.update({"test_fixtures": len(test_outcomes), "train_fixtures": len(goals_train), "xi": 0.0018})
+            with open(path.join(MODELS_DIR, 'goal_model_metrics.json'), 'w', encoding='utf-8') as f:
+                json.dump(dc_metrics, f, indent=2)
+            performance['dixon_coles'] = dc_metrics
+        print(f"  Dixon-Coles trained in {time.time() - dc_start:.1f}s")
+    except Exception as e:
+        print(f"WARNING: Dixon-Coles training failed: {e}")
+
     # Train and save LSTM model
     try:
         print("\nTraining LSTM time series model...")
