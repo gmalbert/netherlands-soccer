@@ -6,7 +6,7 @@ from scripts.precompute_predictions import _weather_enabled
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CORE_REF = "15d379479a812e8352a4e488e014c7e35b016e18"
+CORE_REF = "b27766c"
 CORE_VERSION = "1.4.0"
 
 
