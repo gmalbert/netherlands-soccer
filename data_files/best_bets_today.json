@@ -1,8 +1,8 @@
 {
   "meta": {
     "sport": "eredivisie",
-    "generated_at": "2026-09-05T07:29:52.328563+00:00",
-    "model_version": "core-1.3.29",
+    "generated_at": "2026-09-10T03:07:11.541111+00:00",
+    "model_version": "core-1.4.0",
     "season": "2026",
     "notes": "No odds artifact; best bets require market prices"
   },

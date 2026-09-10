@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "core_version": "1.4.0",
+  "feature_policy_version": 3,
+  "league": "eredivisie",
+  "created_at": "2026-09-10T03:07:12.948935+00:00",
+  "artifacts": {
+    "preprocessed_data": {
+      "path": "precomputed/preprocessed_data.pkl",
+      "bytes": 2332755,
+      "sha256": "5a9b3f229bd7251f304d4a6478d08a708d92a8ed1bcce0d5bee282e8755da817"
+    },
+    "xgb_baseline": {
+      "path": "models/xgb_baseline.pkl",
+      "bytes": 618088,
+      "sha256": "e1c0059c7aa9b77e6e242113985df2d5219b909453e6671c8d50888117cd095f"
+    },
+    "ensemble": {
+      "path": "models/ensemble_model.pkl",
+      "bytes": 3063,
+      "sha256": "e1635fe1b430d1eca70ce5ad4b4dc6ff6f514c0598a994300330a5478b3c16b9"
+    },
+    "optimized_xgb": {
+      "path": "models/optimized_xgb.pkl",
+      "bytes": 1233412,
+      "sha256": "51c5801e032c700147a89c269a8083c8763d67f27e43506401befd66998751f3"
+    },
+    "performance": {
+      "path": "models/model_performance.pkl",
+      "bytes": 1212,
+      "sha256": "a72776bee87337eb09db86b55e505b307ad4a8ba9567a0c22d8011974695b440"
+    },
+    "model_metadata": {
+      "path": "models/model_metadata.json",
+      "bytes": 1300,
+      "sha256": "492928ba847ee46e9d63008db3b91a088ad64e19df28c6ec59221ba39a9c0f4b"
+    },
+    "model_audit": {
+      "path": "precomputed/model-audit/model_ablation.json",
+      "bytes": 2351,
+      "sha256": "6fc1f7475a16d837169e9e17cde55284dcaa187f8063d151e90267191953d8c8"
+    },
+    "upcoming_fixtures": {
+      "path": "data_files/upcoming_fixtures.csv",
+      "bytes": 14748,
+      "sha256": "d905e70b12ace40ba30b7d00cceffaae3c744dabe720fc5edab73b3a54657c38"
+    },
+    "upcoming_predictions": {
+      "path": "data_files/upcoming_predictions.csv",
+      "bytes": 31667,
+      "sha256": "0233e541e28fce4bbdacd796fd2cdea064ea00c56c25a496c01593777504a53c"
+    },
+    "dixon_coles_goal_model": {
+      "path": "models/dixon_coles_goal_model.pkl",
+      "bytes": 228119,
+      "sha256": "5394e0e2860bd5e6e314e56743d13a0d1c760bb3d100710990af822670aca3a4"
+    },
+    "dixon_coles_goal_model_metadata": {
+      "path": "models/dixon_coles_goal_model.json",
+      "bytes": 2051,
+      "sha256": "0df054139571cca488e76561175a53266c285194fad415063387284fa14d43d4"
+    },
+    "goal_model_metrics": {
+      "path": "models/goal_model_metrics.json",
+      "bytes": 182,
+      "sha256": "d1a6ecd30a7e952c3133a7d0b319f2dcdde55b3c7d49ede9891af611733b7e7c"
+    }
+  }
+}
