@@ -403,9 +403,12 @@ def train_and_save_models():
     print(f"Total training time: {total_time:.2f}s")
     print("\nModel Performance Summary:")
     for model_name, metrics in performance.items():
-        if model_name == 'poisson':
+        if model_name in ('poisson', 'dixon_coles'):
             # poisson entry contains detailed metrics
-            print(f"poisson: home_mae={metrics['home_mae']:.3f}, away_mae={metrics['away_mae']:.3f}, outcome_acc={metrics['outcome_acc']:.3f}")
+            if model_name == 'poisson':
+                print(f"poisson: home_mae={metrics['home_mae']:.3f}, away_mae={metrics['away_mae']:.3f}, outcome_acc={metrics['outcome_acc']:.3f}")
+            else:
+                print(f"dixon_coles: log_loss={metrics['log_loss']:.3f}, brier={metrics['brier']:.3f}")
         else:
             print(f"{model_name}: Accuracy={metrics['accuracy']:.3f}, Log loss={metrics['log_loss']:.3f}")
     return performance
