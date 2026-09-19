@@ -282,8 +282,10 @@ def train_and_save_models():
 
         print("\nTraining Dixon-Coles goal model with time-decay weights...")
         dc_start = time.time()
-        raw_csv = path.join(DATA_DIR, 'combined_historical_data_with_calculations_new.csv')
-        raw_hist = pd.read_csv(raw_csv, sep='\t')
+        # The processed feature file renames the football-data goal columns;
+        # Dixon-Coles needs the raw Date/FTHG/FTAG source contract.
+        raw_csv = path.join(DATA_DIR, 'combined_historical_data.csv')
+        raw_hist = pd.read_csv(raw_csv)
         goals = goals_frame_from_historical(raw_hist)
         split_idx = int(len(goals) * 0.8)
         goals_train = goals.iloc[:split_idx].copy()
