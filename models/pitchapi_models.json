@@ -1,0 +1,1 @@
+{"configuration": {"enabled_families": [], "evidence_id": null, "league_key": "eredivisie", "version": 1}, "models": {"baseline": {"feature_count": 34, "fingerprint": "9c14a8884a71b554653e1346eeaab9bfcf876566fab692eecde9da8d52ff141a", "model_id": "pitchapi-baseline-v1"}}, "schema_version": 1}

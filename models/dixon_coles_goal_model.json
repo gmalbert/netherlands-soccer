@@ -1,8 +1,8 @@
 {
   "model_type": "DixonColesGoalModel",
-  "fitted_at": "2026-10-02T13:59:37.752502+00:00",
+  "fitted_at": "2026-10-02T15:28:22.243804+00:00",
   "xi": 0.0018,
-  "training_set_hash": "7b2b3380d2ca4ab1379fad640b6ae7bb13a02c83ffb98fc024221bc16927a76b",
+  "training_set_hash": "12894d611e0f6f84d187a75239be40417cac573c6dd9e77ad3f732072d2c554b",
   "n_fixtures": 1287,
   "n_teams": 25,
   "params": {

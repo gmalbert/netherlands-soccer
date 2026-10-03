@@ -1,5 +1,5 @@
 {
-  "source": "data_files/combined_historical_data_with_calculations_new.csv",
+  "source": "data_files\\combined_historical_data_with_calculations_new.csv",
   "data_quality": {
     "rows": 1287,
     "invalid_dates": 0,
@@ -33,32 +33,32 @@
     },
     {
       "candidate": "odds_heavy",
-      "feature_count": 175,
+      "feature_count": 591,
       "folds": 3,
       "test_rows": 634,
       "metrics": {
-        "accuracy": 0.4022082018927445,
-        "log_loss": 1.6810156485104804,
-        "brier_score": 0.7485575926877757,
-        "calibration_error": 0.22341340108559432,
+        "accuracy": 0.41009463722397477,
+        "log_loss": 1.6676567510510636,
+        "brier_score": 0.7452868836112796,
+        "calibration_error": 0.21206030527665842,
         "draw_recall": 0.1901840490797546,
-        "mean_confidence": 0.6256216029783388,
-        "decisive_lean_rate": 0.5977917981072555
+        "mean_confidence": 0.6220656316542652,
+        "decisive_lean_rate": 0.5851735015772871
       }
     },
     {
       "candidate": "no_odds",
-      "feature_count": 38,
+      "feature_count": 34,
       "folds": 3,
       "test_rows": 634,
       "metrics": {
         "accuracy": 0.49842271293375395,
-        "log_loss": 1.0403112139094564,
-        "brier_score": 0.6138891924373207,
-        "calibration_error": 0.0585204056023125,
-        "draw_recall": 0.006134969325153374,
-        "mean_confidence": 0.5569431185360666,
-        "decisive_lean_rate": 0.4637223974763407
+        "log_loss": 1.0391662193636388,
+        "brier_score": 0.6137045333438701,
+        "calibration_error": 0.05565501757699246,
+        "draw_recall": 0.012269938650306749,
+        "mean_confidence": 0.5539823710601293,
+        "decisive_lean_rate": 0.46845425867507884
       }
     },
     {
@@ -70,7 +70,7 @@
         "accuracy": 0.5236593059936908,
         "log_loss": 1.00379330900636,
         "brier_score": 0.6014531438168653,
-        "calibration_error": 0.07029291268847278,
+        "calibration_error": 0.07029291268847279,
         "draw_recall": 0.0,
         "mean_confidence": 0.5939522186821636,
         "decisive_lean_rate": 0.5646687697160884

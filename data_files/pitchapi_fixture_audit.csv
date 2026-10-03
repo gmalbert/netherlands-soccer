@@ -1,0 +1,244 @@
+provider_match_id	status	home_team	away_team	kickoff_utc	candidate_count	kickoff_delta_hours	kickoff_comparison
+m_0DqxPB	mapped	PSV Eindhoven	SC Heerenveen	2026-10-09T18:00:00+00:00	1	0.0	exact
+m_0ejh9G	mapped	Go Ahead Eagles	Sparta Rotterdam	2026-10-10T14:30:00+00:00	1	0.0	exact
+m_2J40MM	mapped	Feyenoord	AZ Alkmaar	2026-10-10T16:45:00+00:00	1	0.0	exact
+m_2K8dBs	mapped	Fortuna Sittard	FC Twente	2026-10-10T18:00:00+00:00	1	0.0	exact
+m_4ULqVQ	mapped	Ajax	NEC Nijmegen	2026-10-10T19:00:00+00:00	1	0.0	exact
+m_4J3Y5L	mapped	FC Utrecht	Willem II	2026-10-11T10:15:00+00:00	1	0.0	exact
+m_1c0DXP	mapped	Telstar	ADO Den Haag	2026-10-11T12:30:00+00:00	1	0.0	exact
+m_0tiEtg	mapped	PEC Zwolle	Cambuur	2026-10-11T12:30:00+00:00	1	0.0	exact
+m_0Jmrvr	mapped	Excelsior	FC Groningen	2026-10-11T14:45:00+00:00	1	0.0	exact
+m_0s3mLK	mapped	SC Heerenveen	Excelsior	2026-10-16T18:00:00+00:00	1	0.0	exact
+m_3DS6Ao	mapped	ADO Den Haag	PSV Eindhoven	2026-10-17T14:30:00+00:00	1	0.0	exact
+m_29jKgM	mapped	Telstar	Feyenoord	2026-10-17T18:00:00+00:00	1	0.0	exact
+m_20fmJz	mapped	Sparta Rotterdam	Willem II	2026-10-17T19:00:00+00:00	1	0.0	exact
+m_1FvXkB	mapped	PEC Zwolle	Go Ahead Eagles	2026-10-18T10:15:00+00:00	1	0.0	exact
+m_3dutsT	mapped	Cambuur	AZ Alkmaar	2026-10-18T12:30:00+00:00	1	0.0	exact
+m_2016kM	mapped	FC Groningen	Ajax	2026-10-18T14:45:00+00:00	1	0.0	exact
+m_1JkrI2	mapped	FC Twente	FC Utrecht	2026-10-18T18:00:00+00:00	1	0.0	exact
+m_3glEnH	mapped	NEC Nijmegen	Fortuna Sittard	2026-10-18T18:00:00+00:00	1	0.0	exact
+m_2nnFhb	mapped	Go Ahead Eagles	Telstar	2026-10-23T18:00:00+00:00	1	0.0	exact
+m_0XPyrk	mapped	FC Utrecht	PEC Zwolle	2026-10-24T14:30:00+00:00	1	0.0	exact
+m_30MX3b	mapped	Willem II	Cambuur	2026-10-24T16:45:00+00:00	1	0.0	exact
+m_337C0z	mapped	ADO Den Haag	SC Heerenveen	2026-10-24T19:00:00+00:00	1	0.0	exact
+m_19Md0g	mapped	Fortuna Sittard	Excelsior	2026-10-25T11:15:00+00:00	1	0.0	exact
+m_24i8Xg	mapped	PSV Eindhoven	Feyenoord	2026-10-25T13:30:00+00:00	1	0.0	exact
+m_4dmjUp	mapped	NEC Nijmegen	FC Groningen	2026-10-25T13:30:00+00:00	1	0.0	exact
+m_2nTrHG	mapped	Sparta Rotterdam	Ajax	2026-10-25T15:45:00+00:00	1	0.0	exact
+m_4bz6zw	mapped	AZ Alkmaar	FC Twente	2026-10-25T19:00:00+00:00	1	0.0	exact
+m_2dR2ia	mapped	Feyenoord	Fortuna Sittard	2026-10-31T15:30:00+00:00	1	0.0	exact
+m_4EY4Xg	mapped	SC Heerenveen	NEC Nijmegen	2026-10-31T17:45:00+00:00	1	0.0	exact
+m_3ftnql	mapped	PSV Eindhoven	Willem II	2026-10-31T17:45:00+00:00	1	0.0	exact
+m_041XzQ	mapped	Cambuur	Go Ahead Eagles	2026-10-31T20:00:00+00:00	1	0.0	exact
+m_0nBUd0	mapped	Ajax	AZ Alkmaar	2026-10-31T20:00:00+00:00	1	0.0	exact
+m_3022Tt	mapped	PEC Zwolle	ADO Den Haag	2026-11-01T11:15:00+00:00	1	0.0	exact
+m_2NTHrt	mapped	Excelsior	FC Twente	2026-11-01T13:30:00+00:00	1	0.0	exact
+m_4OH4hE	mapped	Telstar	FC Utrecht	2026-11-01T13:30:00+00:00	1	0.0	exact
+m_1DMpTu	mapped	FC Groningen	Sparta Rotterdam	2026-11-01T15:45:00+00:00	1	0.0	exact
+m_1qdH6l	mapped	Willem II	PEC Zwolle	2026-11-06T19:00:00+00:00	1	0.0	exact
+m_0gM11h	mapped	Fortuna Sittard	Telstar	2026-11-07T15:30:00+00:00	1	0.0	exact
+m_3Emnav	mapped	ADO Den Haag	Sparta Rotterdam	2026-11-07T17:45:00+00:00	1	0.0	exact
+m_3sUZnn	mapped	Excelsior	Go Ahead Eagles	2026-11-07T20:00:00+00:00	1	0.0	exact
+m_4Uu1Th	mapped	SC Heerenveen	Feyenoord	2026-11-08T11:15:00+00:00	1	0.0	exact
+m_3BUB1s	mapped	FC Twente	Ajax	2026-11-08T13:30:00+00:00	1	0.0	exact
+m_49zUS6	mapped	AZ Alkmaar	FC Groningen	2026-11-08T15:45:00+00:00	1	0.0	exact
+m_4cJyXq	mapped	Cambuur	PSV Eindhoven	2026-11-08T15:45:00+00:00	1	0.0	exact
+m_1coZrO	mapped	FC Utrecht	NEC Nijmegen	2026-11-08T19:00:00+00:00	1	0.0	exact
+m_2iUNB9	mapped	NEC Nijmegen	PSV Eindhoven	2026-11-21T15:30:00+00:00	1	0.0	exact
+m_1AYLxx	mapped	FC Utrecht	Cambuur	2026-11-21T17:45:00+00:00	1	0.0	exact
+m_0ixAhG	mapped	Feyenoord	Excelsior	2026-11-21T17:45:00+00:00	1	0.0	exact
+m_3DedXe	mapped	Telstar	PEC Zwolle	2026-11-21T20:00:00+00:00	1	0.0	exact
+m_42n8w2	mapped	FC Groningen	SC Heerenveen	2026-11-21T20:00:00+00:00	1	0.0	exact
+m_26Cebe	mapped	FC Twente	Willem II	2026-11-22T11:15:00+00:00	1	0.0	exact
+m_2L6PuX	mapped	Ajax	ADO Den Haag	2026-11-22T13:30:00+00:00	1	0.0	exact
+m_0sPfsg	mapped	Sparta Rotterdam	AZ Alkmaar	2026-11-22T13:30:00+00:00	1	0.0	exact
+m_1Sosat	mapped	Go Ahead Eagles	Fortuna Sittard	2026-11-22T15:45:00+00:00	1	0.0	exact
+m_0CVdnC	mapped	FC Groningen	Willem II	2026-11-27T19:00:00+00:00	1	0.0	exact
+m_2QnDdy	mapped	Excelsior	Telstar	2026-11-28T15:30:00+00:00	1	0.0	exact
+m_0uMAMN	mapped	PSV Eindhoven	Go Ahead Eagles	2026-11-28T17:45:00+00:00	1	0.0	exact
+m_1NQtBM	mapped	Cambuur	Sparta Rotterdam	2026-11-28T20:00:00+00:00	1	0.0	exact
+m_17Fghi	mapped	ADO Den Haag	FC Utrecht	2026-11-29T11:15:00+00:00	1	0.0	exact
+m_4D7uX9	mapped	Feyenoord	Ajax	2026-11-29T13:30:00+00:00	1	0.0	exact
+m_068FZj	mapped	Fortuna Sittard	SC Heerenveen	2026-11-29T13:30:00+00:00	1	0.0	exact
+m_1TX8SO	mapped	PEC Zwolle	AZ Alkmaar	2026-11-29T15:45:00+00:00	1	0.0	exact
+m_1sCd34	mapped	NEC Nijmegen	FC Twente	2026-11-29T19:00:00+00:00	1	0.0	exact
+m_4bw1Zo	outside_source_window	Telstar	FC Groningen	2026-12-04T19:00:00+00:00	0		unresolved
+m_4ePoOH	outside_source_window	Willem II	Feyenoord	2026-12-05T15:30:00+00:00	0		unresolved
+m_4GYonl	outside_source_window	Sparta Rotterdam	NEC Nijmegen	2026-12-05T17:45:00+00:00	0		unresolved
+m_1oJmMv	outside_source_window	AZ Alkmaar	PSV Eindhoven	2026-12-05T19:00:00+00:00	0		unresolved
+m_3HP8Vz	outside_source_window	Fortuna Sittard	PEC Zwolle	2026-12-05T20:00:00+00:00	0		unresolved
+m_0PkbYM	outside_source_window	SC Heerenveen	Cambuur	2026-12-06T11:15:00+00:00	0		unresolved
+m_0xx6US	outside_source_window	Go Ahead Eagles	FC Twente	2026-12-06T13:30:00+00:00	0		unresolved
+m_1mFoZk	outside_source_window	Ajax	FC Utrecht	2026-12-06T13:30:00+00:00	0		unresolved
+m_4fc4dD	outside_source_window	ADO Den Haag	Excelsior	2026-12-06T15:45:00+00:00	0		unresolved
+m_2kgTAr	outside_source_window	FC Utrecht	Fortuna Sittard	2026-12-12T15:30:00+00:00	0		unresolved
+m_3TYMvY	outside_source_window	SC Heerenveen	Go Ahead Eagles	2026-12-12T17:45:00+00:00	0		unresolved
+m_26fCsN	outside_source_window	FC Twente	Sparta Rotterdam	2026-12-12T19:00:00+00:00	0		unresolved
+m_3dh8in	outside_source_window	PEC Zwolle	Excelsior	2026-12-12T20:00:00+00:00	0		unresolved
+m_0qV6HT	outside_source_window	PSV Eindhoven	Telstar	2026-12-13T11:15:00+00:00	0		unresolved
+m_0Wu704	outside_source_window	Willem II	ADO Den Haag	2026-12-13T13:30:00+00:00	0		unresolved
+m_1t2mv0	outside_source_window	FC Groningen	Feyenoord	2026-12-13T13:30:00+00:00	0		unresolved
+m_1IbtoV	outside_source_window	AZ Alkmaar	NEC Nijmegen	2026-12-13T15:45:00+00:00	0		unresolved
+m_0PM2ER	outside_source_window	Ajax	Cambuur	2026-12-13T19:00:00+00:00	0		unresolved
+m_2YXYKz	outside_source_window	Telstar	Willem II	2026-12-18T19:00:00+00:00	0		unresolved
+m_0E97Pe	outside_source_window	Excelsior	AZ Alkmaar	2026-12-19T15:30:00+00:00	0		unresolved
+m_4EZ1OH	outside_source_window	Fortuna Sittard	Sparta Rotterdam	2026-12-19T17:45:00+00:00	0		unresolved
+m_2u1yYO	outside_source_window	FC Utrecht	SC Heerenveen	2026-12-19T20:00:00+00:00	0		unresolved
+m_4cEtwc	outside_source_window	NEC Nijmegen	ADO Den Haag	2026-12-20T11:15:00+00:00	0		unresolved
+m_0c4hgI	outside_source_window	Feyenoord	FC Twente	2026-12-20T13:30:00+00:00	0		unresolved
+m_1fjxZw	outside_source_window	Cambuur	FC Groningen	2026-12-20T13:30:00+00:00	0		unresolved
+m_2xwpLs	outside_source_window	Go Ahead Eagles	Ajax	2026-12-20T15:45:00+00:00	0		unresolved
+m_01li3J	outside_source_window	PSV Eindhoven	PEC Zwolle	2026-12-20T19:00:00+00:00	0		unresolved
+m_3NOL1G	outside_source_window	FC Twente	Fortuna Sittard	2027-01-08T19:00:00+00:00	0		unresolved
+m_1d3YOY	outside_source_window	Sparta Rotterdam	Excelsior	2027-01-09T15:30:00+00:00	0		unresolved
+m_2OKQyf	outside_source_window	PEC Zwolle	FC Utrecht	2027-01-09T17:45:00+00:00	0		unresolved
+m_2EA7bH	outside_source_window	Willem II	Ajax	2027-01-09T19:00:00+00:00	0		unresolved
+m_0QzhNQ	outside_source_window	AZ Alkmaar	SC Heerenveen	2027-01-09T20:00:00+00:00	0		unresolved
+m_3BOT1a	outside_source_window	NEC Nijmegen	Cambuur	2027-01-10T11:15:00+00:00	0		unresolved
+m_4G85l3	outside_source_window	Feyenoord	PSV Eindhoven	2027-01-10T13:30:00+00:00	0		unresolved
+m_3Ume9I	outside_source_window	ADO Den Haag	Telstar	2027-01-10T13:30:00+00:00	0		unresolved
+m_4Q0FVs	outside_source_window	FC Groningen	Go Ahead Eagles	2027-01-10T15:45:00+00:00	0		unresolved
+m_47VYf7	outside_source_window	SC Heerenveen	Sparta Rotterdam	2027-01-15T19:00:00+00:00	0		unresolved
+m_29Ygsh	outside_source_window	Telstar	NEC Nijmegen	2027-01-16T15:30:00+00:00	0		unresolved
+m_4KCX46	outside_source_window	Excelsior	Feyenoord	2027-01-16T17:45:00+00:00	0		unresolved
+m_1YzWxE	outside_source_window	ADO Den Haag	PEC Zwolle	2027-01-16T19:00:00+00:00	0		unresolved
+m_1n5JIT	outside_source_window	Fortuna Sittard	PSV Eindhoven	2027-01-16T20:00:00+00:00	0		unresolved
+m_2JvPN2	outside_source_window	FC Utrecht	FC Twente	2027-01-17T11:15:00+00:00	0		unresolved
+m_2yRuWV	outside_source_window	Go Ahead Eagles	AZ Alkmaar	2027-01-17T13:30:00+00:00	0		unresolved
+m_0inX8s	outside_source_window	Ajax	FC Groningen	2027-01-17T13:30:00+00:00	0		unresolved
+m_0Hm3mL	outside_source_window	Cambuur	Willem II	2027-01-17T15:45:00+00:00	0		unresolved
+m_1y0lie	outside_source_window	Excelsior	Fortuna Sittard	2027-01-22T19:00:00+00:00	0		unresolved
+m_07vYTY	outside_source_window	Ajax	Telstar	2027-01-23T15:30:00+00:00	0		unresolved
+m_2S1I3X	outside_source_window	Feyenoord	PEC Zwolle	2027-01-23T17:45:00+00:00	0		unresolved
+m_1m6KuO	outside_source_window	FC Twente	SC Heerenveen	2027-01-23T19:00:00+00:00	0		unresolved
+m_1uO2bZ	outside_source_window	PSV Eindhoven	ADO Den Haag	2027-01-23T20:00:00+00:00	0		unresolved
+m_0fxGse	outside_source_window	Go Ahead Eagles	Cambuur	2027-01-24T11:15:00+00:00	0		unresolved
+m_2vA3DH	outside_source_window	Sparta Rotterdam	FC Groningen	2027-01-24T13:30:00+00:00	0		unresolved
+m_3P8fDE	outside_source_window	NEC Nijmegen	Willem II	2027-01-24T13:30:00+00:00	0		unresolved
+m_0paYxT	outside_source_window	AZ Alkmaar	FC Utrecht	2027-01-24T15:45:00+00:00	0		unresolved
+m_1sxUEe	outside_source_window	FC Utrecht	Excelsior	2027-01-29T19:00:00+00:00	0		unresolved
+m_2eFGWA	outside_source_window	Sparta Rotterdam	Telstar	2027-01-30T15:30:00+00:00	0		unresolved
+m_2W4EE3	outside_source_window	ADO Den Haag	Go Ahead Eagles	2027-01-30T17:45:00+00:00	0		unresolved
+m_38BrBA	outside_source_window	Willem II	PSV Eindhoven	2027-01-30T19:00:00+00:00	0		unresolved
+m_1YqNJH	outside_source_window	PEC Zwolle	Fortuna Sittard	2027-01-30T20:00:00+00:00	0		unresolved
+m_3DQbNa	outside_source_window	SC Heerenveen	Ajax	2027-01-31T11:15:00+00:00	0		unresolved
+m_1w149H	outside_source_window	AZ Alkmaar	Feyenoord	2027-01-31T13:30:00+00:00	0		unresolved
+m_3TcU56	outside_source_window	FC Twente	Cambuur	2027-01-31T13:30:00+00:00	0		unresolved
+m_0Ch3QU	outside_source_window	FC Groningen	NEC Nijmegen	2027-01-31T15:45:00+00:00	0		unresolved
+m_1FAHuD	outside_source_window	Excelsior	Ajax	2027-02-13T19:00:00+00:00	0		unresolved
+m_4NDlMM	outside_source_window	Willem II	Sparta Rotterdam	2027-02-13T19:00:00+00:00	0		unresolved
+m_3ZMA0E	outside_source_window	Telstar	SC Heerenveen	2027-02-13T19:00:00+00:00	0		unresolved
+m_2XIs9n	outside_source_window	PSV Eindhoven	FC Twente	2027-02-13T19:00:00+00:00	0		unresolved
+m_3XM1KC	outside_source_window	Go Ahead Eagles	PEC Zwolle	2027-02-13T19:00:00+00:00	0		unresolved
+m_3zRNPg	outside_source_window	Fortuna Sittard	ADO Den Haag	2027-02-13T19:00:00+00:00	0		unresolved
+m_3wrMBV	outside_source_window	Feyenoord	NEC Nijmegen	2027-02-13T19:00:00+00:00	0		unresolved
+m_2QiZSt	outside_source_window	FC Groningen	AZ Alkmaar	2027-02-13T19:00:00+00:00	0		unresolved
+m_0LjGsi	outside_source_window	Cambuur	FC Utrecht	2027-02-13T19:00:00+00:00	0		unresolved
+m_2jBHMa	outside_source_window	FC Twente	Excelsior	2027-02-20T19:00:00+00:00	0		unresolved
+m_0I9R8m	outside_source_window	AZ Alkmaar	Fortuna Sittard	2027-02-20T19:00:00+00:00	0		unresolved
+m_4QAHFI	outside_source_window	FC Utrecht	ADO Den Haag	2027-02-20T19:00:00+00:00	0		unresolved
+m_0iy40a	outside_source_window	Ajax	Go Ahead Eagles	2027-02-20T19:00:00+00:00	0		unresolved
+m_3CbOoo	outside_source_window	Feyenoord	Telstar	2027-02-20T19:00:00+00:00	0		unresolved
+m_3iDuOP	outside_source_window	NEC Nijmegen	Sparta Rotterdam	2027-02-20T19:00:00+00:00	0		unresolved
+m_2wugkP	outside_source_window	SC Heerenveen	Willem II	2027-02-20T19:00:00+00:00	0		unresolved
+m_0UQYqM	outside_source_window	PEC Zwolle	FC Groningen	2027-02-20T19:00:00+00:00	0		unresolved
+m_1OY2E8	outside_source_window	PSV Eindhoven	Cambuur	2027-02-20T19:00:00+00:00	0		unresolved
+m_209plM	outside_source_window	Fortuna Sittard	FC Utrecht	2027-02-27T19:00:00+00:00	0		unresolved
+m_3UDryj	outside_source_window	Telstar	Go Ahead Eagles	2027-02-27T19:00:00+00:00	0		unresolved
+m_1sRVmP	outside_source_window	Sparta Rotterdam	PSV Eindhoven	2027-02-27T19:00:00+00:00	0		unresolved
+m_4GiWji	outside_source_window	NEC Nijmegen	AZ Alkmaar	2027-02-27T19:00:00+00:00	0		unresolved
+m_1G1FJb	outside_source_window	Willem II	FC Groningen	2027-02-27T19:00:00+00:00	0		unresolved
+m_0rtHGo	outside_source_window	Excelsior	SC Heerenveen	2027-02-27T19:00:00+00:00	0		unresolved
+m_3kHKk0	outside_source_window	Cambuur	PEC Zwolle	2027-02-27T19:00:00+00:00	0		unresolved
+m_2mHCP5	outside_source_window	Ajax	Feyenoord	2027-02-27T19:00:00+00:00	0		unresolved
+m_1zZt5P	outside_source_window	ADO Den Haag	FC Twente	2027-02-27T19:00:00+00:00	0		unresolved
+m_0GCjYQ	outside_source_window	ADO Den Haag	Ajax	2027-03-06T19:00:00+00:00	0		unresolved
+m_4I2O4h	outside_source_window	FC Groningen	Telstar	2027-03-06T19:00:00+00:00	0		unresolved
+m_0JRBGT	outside_source_window	FC Twente	AZ Alkmaar	2027-03-06T19:00:00+00:00	0		unresolved
+m_1FF3Tw	outside_source_window	Feyenoord	SC Heerenveen	2027-03-06T19:00:00+00:00	0		unresolved
+m_1nngwx	outside_source_window	Fortuna Sittard	NEC Nijmegen	2027-03-06T19:00:00+00:00	0		unresolved
+m_2lGyDu	outside_source_window	Go Ahead Eagles	Excelsior	2027-03-06T19:00:00+00:00	0		unresolved
+m_0DQI54	outside_source_window	PEC Zwolle	Willem II	2027-03-06T19:00:00+00:00	0		unresolved
+m_2gai45	outside_source_window	PSV Eindhoven	FC Utrecht	2027-03-06T19:00:00+00:00	0		unresolved
+m_2ZSVzc	outside_source_window	Sparta Rotterdam	Cambuur	2027-03-06T19:00:00+00:00	0		unresolved
+m_4DIOe9	outside_source_window	FC Utrecht	FC Groningen	2027-03-13T19:00:00+00:00	0		unresolved
+m_2PlNmq	outside_source_window	Willem II	FC Twente	2027-03-13T19:00:00+00:00	0		unresolved
+m_2QqxrY	outside_source_window	Cambuur	ADO Den Haag	2027-03-13T19:00:00+00:00	0		unresolved
+m_1s9e3m	outside_source_window	AZ Alkmaar	Sparta Rotterdam	2027-03-13T19:00:00+00:00	0		unresolved
+m_1Bs0XU	outside_source_window	Ajax	PEC Zwolle	2027-03-13T19:00:00+00:00	0		unresolved
+m_4SHKuX	outside_source_window	Go Ahead Eagles	Feyenoord	2027-03-13T19:00:00+00:00	0		unresolved
+m_2vzJw0	outside_source_window	Telstar	PSV Eindhoven	2027-03-13T19:00:00+00:00	0		unresolved
+m_3I5wXd	outside_source_window	SC Heerenveen	Fortuna Sittard	2027-03-13T19:00:00+00:00	0		unresolved
+m_3OGoUk	outside_source_window	Excelsior	NEC Nijmegen	2027-03-13T19:00:00+00:00	0		unresolved
+m_03NOiM	outside_source_window	Telstar	Fortuna Sittard	2027-03-20T19:00:00+00:00	0		unresolved
+m_0VARaS	outside_source_window	FC Groningen	PSV Eindhoven	2027-03-20T19:00:00+00:00	0		unresolved
+m_20Kdai	outside_source_window	ADO Den Haag	Willem II	2027-03-20T19:00:00+00:00	0		unresolved
+m_0aGjFf	outside_source_window	AZ Alkmaar	Excelsior	2027-03-20T19:00:00+00:00	0		unresolved
+m_0PD85v	outside_source_window	FC Twente	Go Ahead Eagles	2027-03-20T19:00:00+00:00	0		unresolved
+m_3LlDXI	outside_source_window	FC Utrecht	Sparta Rotterdam	2027-03-20T19:00:00+00:00	0		unresolved
+m_1wOPCw	outside_source_window	Feyenoord	Cambuur	2027-03-20T19:00:00+00:00	0		unresolved
+m_4Qu5RT	outside_source_window	NEC Nijmegen	Ajax	2027-03-20T19:00:00+00:00	0		unresolved
+m_0jAkbu	outside_source_window	PEC Zwolle	SC Heerenveen	2027-03-20T19:00:00+00:00	0		unresolved
+m_3jyJIV	outside_source_window	Cambuur	Telstar	2027-04-03T18:00:00+00:00	0		unresolved
+m_0uRSm6	outside_source_window	Willem II	FC Utrecht	2027-04-03T18:00:00+00:00	0		unresolved
+m_1yfKbR	outside_source_window	Sparta Rotterdam	ADO Den Haag	2027-04-03T18:00:00+00:00	0		unresolved
+m_1d9LNK	outside_source_window	Ajax	FC Twente	2027-04-03T18:00:00+00:00	0		unresolved
+m_1mZLwm	outside_source_window	PSV Eindhoven	AZ Alkmaar	2027-04-03T18:00:00+00:00	0		unresolved
+m_1QmEEH	outside_source_window	Go Ahead Eagles	NEC Nijmegen	2027-04-03T18:00:00+00:00	0		unresolved
+m_2M7RIJ	outside_source_window	SC Heerenveen	FC Groningen	2027-04-03T18:00:00+00:00	0		unresolved
+m_3fE4X2	outside_source_window	Fortuna Sittard	Feyenoord	2027-04-03T18:00:00+00:00	0		unresolved
+m_3ffmbR	outside_source_window	Excelsior	PEC Zwolle	2027-04-03T18:00:00+00:00	0		unresolved
+m_3MqGTi	outside_source_window	ADO Den Haag	Feyenoord	2027-04-10T18:00:00+00:00	0		unresolved
+m_2zEeRt	outside_source_window	FC Groningen	Excelsior	2027-04-10T18:00:00+00:00	0		unresolved
+m_3tHCW8	outside_source_window	FC Utrecht	Ajax	2027-04-10T18:00:00+00:00	0		unresolved
+m_3bKjoH	outside_source_window	Willem II	AZ Alkmaar	2027-04-10T18:00:00+00:00	0		unresolved
+m_2pC3N6	outside_source_window	PEC Zwolle	PSV Eindhoven	2027-04-10T18:00:00+00:00	0		unresolved
+m_2Fnao3	outside_source_window	NEC Nijmegen	SC Heerenveen	2027-04-10T18:00:00+00:00	0		unresolved
+m_40CZMq	outside_source_window	Sparta Rotterdam	Go Ahead Eagles	2027-04-10T18:00:00+00:00	0		unresolved
+m_1ccfKi	outside_source_window	Telstar	FC Twente	2027-04-10T18:00:00+00:00	0		unresolved
+m_3Dfxlj	outside_source_window	Cambuur	Fortuna Sittard	2027-04-10T18:00:00+00:00	0		unresolved
+m_24bHk5	outside_source_window	PEC Zwolle	Telstar	2027-04-24T18:00:00+00:00	0		unresolved
+m_0cAet3	outside_source_window	AZ Alkmaar	Cambuur	2027-04-24T18:00:00+00:00	0		unresolved
+m_3wpFgg	outside_source_window	Excelsior	Willem II	2027-04-24T18:00:00+00:00	0		unresolved
+m_1b8o9E	outside_source_window	FC Twente	NEC Nijmegen	2027-04-24T18:00:00+00:00	0		unresolved
+m_2vj8op	outside_source_window	Feyenoord	Sparta Rotterdam	2027-04-24T18:00:00+00:00	0		unresolved
+m_2DTjqF	outside_source_window	Go Ahead Eagles	FC Utrecht	2027-04-24T18:00:00+00:00	0		unresolved
+m_386LWA	outside_source_window	PSV Eindhoven	Ajax	2027-04-24T18:00:00+00:00	0		unresolved
+m_3TUEJM	outside_source_window	SC Heerenveen	ADO Den Haag	2027-04-24T18:00:00+00:00	0		unresolved
+m_0vrFfO	outside_source_window	Fortuna Sittard	FC Groningen	2027-04-24T18:00:00+00:00	0		unresolved
+m_1unPP7	outside_source_window	Sparta Rotterdam	FC Twente	2027-05-01T18:00:00+00:00	0		unresolved
+m_2y86GH	outside_source_window	SC Heerenveen	FC Utrecht	2027-05-01T18:00:00+00:00	0		unresolved
+m_3n6P06	outside_source_window	NEC Nijmegen	PEC Zwolle	2027-05-01T18:00:00+00:00	0		unresolved
+m_4e8wBt	outside_source_window	Go Ahead Eagles	PSV Eindhoven	2027-05-01T18:00:00+00:00	0		unresolved
+m_3Z12sU	outside_source_window	Feyenoord	Willem II	2027-05-01T18:00:00+00:00	0		unresolved
+m_2iu1Wd	outside_source_window	FC Groningen	ADO Den Haag	2027-05-01T18:00:00+00:00	0		unresolved
+m_1dNOvF	outside_source_window	Excelsior	Cambuur	2027-05-01T18:00:00+00:00	0		unresolved
+m_4AzOLg	outside_source_window	Ajax	Fortuna Sittard	2027-05-01T18:00:00+00:00	0		unresolved
+m_09AltY	outside_source_window	Telstar	AZ Alkmaar	2027-05-01T18:00:00+00:00	0		unresolved
+m_11Emqb	outside_source_window	ADO Den Haag	NEC Nijmegen	2027-05-08T18:00:00+00:00	0		unresolved
+m_3O9cO7	outside_source_window	Willem II	Telstar	2027-05-08T18:00:00+00:00	0		unresolved
+m_1QKZZN	outside_source_window	PSV Eindhoven	Excelsior	2027-05-08T18:00:00+00:00	0		unresolved
+m_11yoKM	outside_source_window	PEC Zwolle	Sparta Rotterdam	2027-05-08T18:00:00+00:00	0		unresolved
+m_3u3VHp	outside_source_window	Fortuna Sittard	Go Ahead Eagles	2027-05-08T18:00:00+00:00	0		unresolved
+m_3FhAP6	outside_source_window	FC Utrecht	Feyenoord	2027-05-08T18:00:00+00:00	0		unresolved
+m_4TqHj6	outside_source_window	FC Twente	FC Groningen	2027-05-08T18:00:00+00:00	0		unresolved
+m_2J0ZCu	outside_source_window	Cambuur	SC Heerenveen	2027-05-08T18:00:00+00:00	0		unresolved
+m_2TQrQK	outside_source_window	AZ Alkmaar	Ajax	2027-05-08T18:00:00+00:00	0		unresolved
+m_3nwlbS	outside_source_window	AZ Alkmaar	PEC Zwolle	2027-05-16T12:30:00+00:00	0		unresolved
+m_4VVoQP	outside_source_window	Go Ahead Eagles	SC Heerenveen	2027-05-16T12:30:00+00:00	0		unresolved
+m_06bAEs	outside_source_window	Fortuna Sittard	Willem II	2027-05-16T12:30:00+00:00	0		unresolved
+m_0oUkPB	outside_source_window	FC Utrecht	Telstar	2027-05-16T12:30:00+00:00	0		unresolved
+m_4Ktlwp	outside_source_window	FC Twente	Feyenoord	2027-05-16T12:30:00+00:00	0		unresolved
+m_4FKpEu	outside_source_window	FC Groningen	Cambuur	2027-05-16T12:30:00+00:00	0		unresolved
+m_3ZaJPw	outside_source_window	Excelsior	ADO Den Haag	2027-05-16T12:30:00+00:00	0		unresolved
+m_19D1Aa	outside_source_window	Ajax	Sparta Rotterdam	2027-05-16T12:30:00+00:00	0		unresolved
+m_4gQOlc	outside_source_window	PSV Eindhoven	NEC Nijmegen	2027-05-16T12:30:00+00:00	0		unresolved
+m_48AyaH	outside_source_window	Sparta Rotterdam	Fortuna Sittard	2027-05-23T12:30:00+00:00	0		unresolved
+m_3zSWHu	outside_source_window	Willem II	Go Ahead Eagles	2027-05-23T12:30:00+00:00	0		unresolved
+m_32bw5V	outside_source_window	SC Heerenveen	PSV Eindhoven	2027-05-23T12:30:00+00:00	0		unresolved
+m_03kAy0	outside_source_window	PEC Zwolle	FC Twente	2027-05-23T12:30:00+00:00	0		unresolved
+m_38ndaa	outside_source_window	NEC Nijmegen	FC Utrecht	2027-05-23T12:30:00+00:00	0		unresolved
+m_2Cjueg	outside_source_window	Feyenoord	FC Groningen	2027-05-23T12:30:00+00:00	0		unresolved
+m_2pvvUl	outside_source_window	Cambuur	Ajax	2027-05-23T12:30:00+00:00	0		unresolved
+m_2WYgqR	outside_source_window	ADO Den Haag	AZ Alkmaar	2027-05-23T12:30:00+00:00	0		unresolved
+m_0pZzV3	outside_source_window	Telstar	Excelsior	2027-05-23T12:30:00+00:00	0		unresolved
