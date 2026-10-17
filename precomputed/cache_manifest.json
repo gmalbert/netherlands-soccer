@@ -3,12 +3,12 @@
   "core_version": "1.4.3",
   "feature_policy_version": 3,
   "league": "eredivisie",
-  "created_at": "2026-10-16T12:35:06.736299+00:00",
+  "created_at": "2026-10-17T11:44:05.452779+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
       "bytes": 2342430,
-      "sha256": "83526a069eff31ae680dbc280626df3bb5bd74db1a5c3d354bd68b6b0144e0c1"
+      "sha256": "2ebdc752427880a29d20b145fc0ac0d341de15ea2c7823f97027978c3f30ffc3"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
@@ -28,12 +28,12 @@
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "21e63e8ae4da4fc04c6dce1c9a81b26afaadb10aee228d44ad33222f377f6aee"
+      "sha256": "ab71faf795be4cc7d1a68f0e9713a3046c9f1c7263409dadde99d41bf73ee827"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
       "bytes": 1300,
-      "sha256": "e040c590cab74e11278d39b13b6ff79505f965eb8e249fc471dc2281c8df0794"
+      "sha256": "051fbef9418eb9e75d7da39133d38b36c0e5436353fcd67760c31d13827e9863"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
@@ -42,13 +42,13 @@
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 16351,
-      "sha256": "73475d85a1942502c8128eac6f829dd50c5e32d6151946e9ca894fd8a7caa64c"
+      "bytes": 16122,
+      "sha256": "9cf1e819f175f08aa85a4b828f118c2f1a8c894b925104940f2de00cae3390ea"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 35263,
-      "sha256": "4c6987df7f5be21c86e5fd8a9eeecc7d0c1bebdf4452aadb8af0b917b00ae049"
+      "bytes": 34770,
+      "sha256": "4ecb09e215faa2a427bfb7b105b82bf48c31004103c8941d78551b806f9ddb05"
     },
     "dixon_coles_goal_model": {
       "path": "models/dixon_coles_goal_model.pkl",
