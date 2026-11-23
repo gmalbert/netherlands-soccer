@@ -1,9 +1,9 @@
 {
-  "fixtures": 255,
-  "brier": 0.6108927706446103,
-  "log_loss": 1.4666381703575933,
-  "rps": 0.2007642030290847,
-  "test_fixtures": 255,
-  "train_fixtures": 1065,
+  "fixtures": 256,
+  "brier": 0.6138508041540764,
+  "log_loss": 1.4789373224370064,
+  "rps": 0.2061002081195581,
+  "test_fixtures": 256,
+  "train_fixtures": 1072,
   "xi": 0.0018
 }
